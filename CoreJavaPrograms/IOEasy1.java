@@ -1,0 +1,1 @@
+class IOEasy1 { public static void main(String[] args) throws Exception{ java.nio.file.Files.write(java.nio.file.Paths.get("out.txt"), "hello\n".getBytes()); System.out.println(new String(java.nio.file.Files.readAllBytes(java.nio.file.Paths.get("out.txt")))); } }

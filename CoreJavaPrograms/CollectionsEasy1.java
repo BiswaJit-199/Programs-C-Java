@@ -1,0 +1,1 @@
+class CollectionsEasy1 { public static void main(String[] args){ java.util.List<String> list = new java.util.ArrayList<>(); list.add("a"); list.add("b"); for(String s: list) System.out.println(s); } }
